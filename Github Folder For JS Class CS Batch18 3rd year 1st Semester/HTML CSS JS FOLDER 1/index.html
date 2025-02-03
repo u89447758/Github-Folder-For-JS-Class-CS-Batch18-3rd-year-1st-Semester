@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form to Calculate Discount</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>ចំនួនទឹកប្រាក់សរុប</h2>  <input type="number" id="totalAmount" placeholder="បញ្ចូលចំនួនសរុប">
+
+    <div class="discount-options">
+      <label>បញ្ចុះជាភាគរយ:</label>  <button class="discount-btn" data-discount="10">10%</button>
+      <button class="discount-btn" data-discount="20">20%</button>
+    </div>
+
+    <div class="result">
+      <label for="amountDue">ចំនួនទឹកប្រាក់ដែលត្រូវបង់:</label>  <span id="amountDue">0</span> ៛  </div>
+
+    <div class="buttons">
+      <button id="calculateBtn">គណនា</button>  <button id="clearBtn">សម្អាត</button>  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

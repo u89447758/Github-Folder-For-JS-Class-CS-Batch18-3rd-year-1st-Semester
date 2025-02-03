@@ -1,0 +1,131 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+
+
+body {
+    font-family: "Moulpali", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#gradingform {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #74059c;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(98, 9, 149);
+}
+
+#gradingform:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.container {
+    width: 350px; /* Adjust as needed */
+    margin: 20px auto;
+    border: 2px solid #a90b0b; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    padding: 20px;
+    background-color: rgb(6, 189, 73);
+  }
+  .container label {
+    margin-bottom: 5px; /* Add space between labels and inputs */
+  }
+  
+.container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+label {
+    display: inline-block;
+    border: 3px solid #74059c;
+}
+
+
+.container #totalAverage,
+.container #result,
+.container #grade,
+.container #meaning {
+    display: inline-block;
+    font-family: "Moulpali", serif;
+    font-size: 18px;
+  padding: 5px;
+  border: none; /* Remove the default border */
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+.container input[type="number"]:active,
+.container #totalAverage:active,
+.container #result:active,
+.container #grade:active,
+.container #meaning:active {
+    outline: none;
+    border: 3px solid red;
+    background-color: blue
+    
+}
+.container input[type="number"] {
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "Moulpali", serif;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+
+    
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-bottom: 3px solid red;
+}
+input[type="number"]:hover {
+    outline: red;
+    border: 3px solid red;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Moulpali", serif;
+    display: block;
+    color: white;
+}
+button:active {
+    outline: none;
+    background-color: blue
+}
+
+
+.rules {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(98, 9, 149);
+}
+
+.rules:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rules ul {
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+}

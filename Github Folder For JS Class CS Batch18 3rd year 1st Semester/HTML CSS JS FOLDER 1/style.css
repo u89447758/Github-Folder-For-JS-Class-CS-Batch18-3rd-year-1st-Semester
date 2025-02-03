@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+
+body {
+    font-family: "Battambang", serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0; /* Remove default margins */
+  }
+  
+  .container {
+    background-color: rgb(30, 30, 142);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #db0f0f; /* Dark gray heading color */
+    text-decoration: underline #07c944; /* Underline with green color */
+}
+  
+  input[type="number"] {
+    color: #007bff;
+    font-family: "Battambang", serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    width: calc(100% - 10px); /* Occupy full width with some padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #c8032b; /* Blue border on focus */
+    border-width: 2px; /* Increase border width */
+  }
+  
+  .discount-options {
+    margin-bottom: 15px;
+  }
+  
+  .discount-btn {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .discount-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .result {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    font-family: "Battambang", serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-family: "Battambang", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #calculateBtn {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  #clearBtn {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }

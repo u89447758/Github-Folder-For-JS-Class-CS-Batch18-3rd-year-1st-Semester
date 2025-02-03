@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Form</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        </style>
+    <style>
+       
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 id="gradingform">ទម្រង់ចំណាត់ថ្នាក់</h2>
+
+    <label for="averageScore">បញ្ចូល​ពិន្ទុ​មធ្យម៖</label>
+    <input type="number" id="averageScore" name="averageScore" min="0" max="100" required>
+
+    <label for="totalAverage">មធ្យមភាគសរុប៖</label>
+    <div id="totalAverage"></div>
+
+    <label for="result">លទ្ធផល៖ ឆ្លង ឬ បរាជ័យ៖</label>
+    <div id="result"></div>
+
+    <label for="grade">លទ្ធផលជាថ្នាក់៖</label>
+    <div id="grade"></div>
+
+    <label for="meaning">អត្ថន័យ៖</label>
+    <div id="meaning"></div>
+    
+
+    <button onclick="calculate()">គណនាលទ្ធផល</button>
+
+    <div class="rules">
+        <h3>ច្បាប់​ចំណាត់ថ្នាក់៖</h3>
+        <ul>
+            <li>ពិន្ទុពី 60 ទៅ 100 គឺជា Pass ។</li>
+            <li>ពិន្ទុក្រោម 60 ចុះដល់ 0 គឺ Fail ។</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
